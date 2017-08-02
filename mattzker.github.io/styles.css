@@ -1,0 +1,146 @@
+body p footer h1 h2 h3 div {
+  margin: 0;
+  padding: 0;
+}
+
+.site-title {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: block;
+  float: left;
+}
+
+.profile-pic {
+  display: block;
+  float: left;
+  border-radius: 100%;
+  width: 75px;
+  height: auto;
+}
+
+.site-title {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+body {
+  padding: 30px;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.main-text {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav {
+  display: block;
+  float: right;
+  width: 300px;
+}
+
+.list-item {
+  display: block;
+  float: right;
+  margin-left: 10px;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.list-item:hover {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.about-header {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.about-body {
+  background-color: black;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  min-height: 700px;
+  padding: 30px;
+}
+
+.about-main-content {
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: black;
+  background-color: white;
+}
+
+.main-header:hover {
+  background-color: black;
+  color: white;
+}
+
+.about-content-wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
